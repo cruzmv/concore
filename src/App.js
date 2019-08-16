@@ -6,8 +6,11 @@ import Samplepage from './Pages/Samplepage'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-import './scss/app.scss'
+import './app.scss'
 import {header, banner, about, solutions} from './data'
+
+//https://invis.io/SDTCXKQMC5J#/377954982_HomepageConcore
+//https://codepen.io/daniel_terra/pen/WVzbKE
 
 class App extends React.Component {
   constructor(){

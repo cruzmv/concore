@@ -11,6 +11,11 @@ React Router Dom
  npm install react-router-dom
 ``` 
 
+JQuery
+```
+ npm install jquery --save
+``` 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
