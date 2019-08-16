@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Homepage from './Pages/Homepage'
+import Samplepage from './Pages/Samplepage'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+import './scss/app.scss'
+import {header, banner, about, solutions} from './data'
+
+class App extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      header: header,
+      banner: banner,
+      about: about,
+      solutions: solutions
+    }
+  }
+
+  render(){
+    return (
+            <Router>
+              <div>
+                  <Header header={this.state.header} />
+                  <Switch>
+                    <Route exact path={"/"} render={props => <Homepage data={this.state} />} />
+                    <Route path="/sprintzero" render={props => <Samplepage {...props} />} />
+                    <Route path="/innovationsquad" render={props => <Samplepage {...props} />} />
+                    <Route path="/blog5" render={props => <Samplepage {...props} />} />
+                  </Switch>
+                <Footer />
+              </div>
+            </Router>
+    )
+  }
 }
 
-export default App;
+export default App
