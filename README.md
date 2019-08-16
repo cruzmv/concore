@@ -1,3 +1,5 @@
+## Concore Freelance Test
+   Componentized page
 
 ## Dependences
 
@@ -15,6 +17,15 @@ JQuery
 ```
  npm install jquery --save
 ``` 
+
+## Git Commit
+
+commit.bat
+```
+ commit "comments"
+``` 
+
+### React README
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
