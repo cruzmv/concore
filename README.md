@@ -1,8 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- [ npm install node-sass ]
+
+## Dependences
+
+ [npm install node-sass]
  [ npm install react-bootstrap bootstrap ]
  [ npm install react-router-dom ]
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
