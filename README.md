@@ -1,3 +1,10 @@
+## Concore Freelance Test
+
+   Componentized page followed as in 
+   
+      https://invis.io/SDTCXKQMC5J#/377954982_HomepageConcore
+      https://codepen.io/daniel_terra/pen/WVzbKE
+
 
 ## Dependences
 
@@ -15,6 +22,15 @@ JQuery
 ```
  npm install jquery --save
 ``` 
+
+## Git Commit
+
+commit.bat
+```
+ commit "comments"
+``` 
+
+### React README
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
