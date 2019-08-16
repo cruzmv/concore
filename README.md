@@ -1,5 +1,10 @@
 ## Concore Freelance Test
-   Componentized page
+
+   Componentized page followed as in 
+   
+      https://invis.io/SDTCXKQMC5J#/377954982_HomepageConcore
+      https://codepen.io/daniel_terra/pen/WVzbKE
+
 
 ## Dependences
 
