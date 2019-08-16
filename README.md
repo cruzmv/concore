@@ -2,9 +2,14 @@
 
 ## Dependences
 
- [npm install node-sass]
- [ npm install react-bootstrap bootstrap ]
- [ npm install react-router-dom ]
+Sass: 
+ ### `npm install node-sass`
+
+React Bootstrap
+ npm install react-bootstrap bootstrap
+
+React Router Dom
+ npm install react-router-dom
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
