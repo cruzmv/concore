@@ -7,11 +7,6 @@ Sass:
  npm install node-sass
 ```
 
-React Bootstrap
-```
- npm install react-bootstrap bootstrap
-``` 
-
 React Router Dom
 ```
  npm install react-router-dom
